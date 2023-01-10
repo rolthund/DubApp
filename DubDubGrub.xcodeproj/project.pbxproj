@@ -8,18 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		762586DF29595F750093333B /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762586DE29595F750093333B /* DubDubGrubApp.swift */; };
-		762586E129595F750093333B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762586E029595F750093333B /* ContentView.swift */; };
 		762586E329595F760093333B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762586E229595F760093333B /* Assets.xcassets */; };
 		762586E729595F760093333B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 762586E629595F760093333B /* Preview Assets.xcassets */; };
+		7635AF802960036D00D59B16 /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7635AF7F2960036D00D59B16 /* CKAsset+Ext.swift */; };
+		766892E6295BBC8B00DA2B8C /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892E5295BBC8B00DA2B8C /* LocationCell.swift */; };
+		766892E8295BBCEC00DA2B8C /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892E7295BBCEC00DA2B8C /* AvatarView.swift */; };
+		766892EA295BBFAB00DA2B8C /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892E9295BBFAB00DA2B8C /* CustomModifiers.swift */; };
+		766892EC295BBFED00DA2B8C /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892EB295BBFED00DA2B8C /* View+Ext.swift */; };
+		766892EE295BC10000DA2B8C /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892ED295BC10000DA2B8C /* DDGButton.swift */; };
+		766892F7295C265D00DA2B8C /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892F6295C265D00DA2B8C /* DDGLocation.swift */; };
+		766892F9295C2A0600DA2B8C /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892F8295C2A0600DA2B8C /* DDGProfile.swift */; };
+		766892FB295C2A6600DA2B8C /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892FA295C2A6600DA2B8C /* MockData.swift */; };
+		766892FE295CF19F00DA2B8C /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892FD295CF19F00DA2B8C /* CloudKitManager.swift */; };
+		76689300295D03B800DA2B8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766892FF295D03B800DA2B8C /* Constants.swift */; };
+		76689302295E7B7900DA2B8C /* CKRecord+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76689301295E7B7900DA2B8C /* CKRecord+Ext.swift */; };
+		76689304295E903300DA2B8C /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76689303295E903300DA2B8C /* AlertItem.swift */; };
+		76689307295E968000DA2B8C /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76689306295E968000DA2B8C /* LocationMapViewModel.swift */; };
+		7668930A295F899F00DA2B8C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76689309295F899F00DA2B8C /* LocationManager.swift */; };
+		76ED5B53295A676300CADBD3 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED5B52295A676300CADBD3 /* Color+Ext.swift */; };
+		76ED5B55295A67D700CADBD3 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED5B54295A67D700CADBD3 /* AppTabView.swift */; };
+		76ED5B57295A87DC00CADBD3 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED5B56295A87DC00CADBD3 /* LocationMapView.swift */; };
+		76ED5B5D295A886900CADBD3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED5B5C295A886900CADBD3 /* ProfileView.swift */; };
+		76ED5B5F295A887600CADBD3 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED5B5E295A887600CADBD3 /* LocationListView.swift */; };
+		76ED5B61295A976500CADBD3 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ED5B60295A976500CADBD3 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		762586DB29595F750093333B /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		762586DE29595F750093333B /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
-		762586E029595F750093333B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		762586E229595F760093333B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		762586E429595F760093333B /* DubDubGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubDubGrub.entitlements; sourceTree = "<group>"; };
 		762586E629595F760093333B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7635AF7F2960036D00D59B16 /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
+		766892E5295BBC8B00DA2B8C /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		766892E7295BBCEC00DA2B8C /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		766892E9295BBFAB00DA2B8C /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		766892EB295BBFED00DA2B8C /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		766892ED295BC10000DA2B8C /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
+		766892F6295C265D00DA2B8C /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
+		766892F8295C2A0600DA2B8C /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
+		766892FA295C2A6600DA2B8C /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		766892FD295CF19F00DA2B8C /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		766892FF295D03B800DA2B8C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		76689301295E7B7900DA2B8C /* CKRecord+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKRecord+Ext.swift"; sourceTree = "<group>"; };
+		76689303295E903300DA2B8C /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		76689306295E968000DA2B8C /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
+		76689309295F899F00DA2B8C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		76ED5B52295A676300CADBD3 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		76ED5B54295A67D700CADBD3 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		76ED5B56295A87DC00CADBD3 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		76ED5B5C295A886900CADBD3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		76ED5B5E295A887600CADBD3 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		76ED5B60295A976500CADBD3 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +92,10 @@
 		762586DD29595F750093333B /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				766892FC295CF16900DA2B8C /* Utilities */,
+				766892F5295C264E00DA2B8C /* Model */,
+				766892F1295BC49D00DA2B8C /* Views */,
 				762586DE29595F750093333B /* DubDubGrubApp.swift */,
-				762586E029595F750093333B /* ContentView.swift */,
 				762586E229595F760093333B /* Assets.xcassets */,
 				762586E429595F760093333B /* DubDubGrub.entitlements */,
 				762586E529595F760093333B /* Preview Content */,
@@ -67,6 +109,96 @@
 				762586E629595F760093333B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		766892EF295BC43D00DA2B8C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				766892EB295BBFED00DA2B8C /* View+Ext.swift */,
+				76ED5B52295A676300CADBD3 /* Color+Ext.swift */,
+				76689301295E7B7900DA2B8C /* CKRecord+Ext.swift */,
+				7635AF7F2960036D00D59B16 /* CKAsset+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		766892F1295BC49D00DA2B8C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				766892E9295BBFAB00DA2B8C /* CustomModifiers.swift */,
+				766892F4295BC4F300DA2B8C /* CustomViews */,
+				766892F3295BC4E900DA2B8C /* Cells */,
+				766892F2295BC4A700DA2B8C /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		766892F2295BC4A700DA2B8C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				76689305295E965A00DA2B8C /* LocationMapView */,
+				76ED5B54295A67D700CADBD3 /* AppTabView.swift */,
+				76ED5B5C295A886900CADBD3 /* ProfileView.swift */,
+				76ED5B60295A976500CADBD3 /* LocationView.swift */,
+				76ED5B5E295A887600CADBD3 /* LocationListView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		766892F3295BC4E900DA2B8C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				766892E5295BBC8B00DA2B8C /* LocationCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		766892F4295BC4F300DA2B8C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				766892ED295BC10000DA2B8C /* DDGButton.swift */,
+				766892E7295BBCEC00DA2B8C /* AvatarView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		766892F5295C264E00DA2B8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				766892F6295C265D00DA2B8C /* DDGLocation.swift */,
+				766892F8295C2A0600DA2B8C /* DDGProfile.swift */,
+				766892FA295C2A6600DA2B8C /* MockData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		766892FC295CF16900DA2B8C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				76689308295F898400DA2B8C /* Managers */,
+				766892EF295BC43D00DA2B8C /* Extensions */,
+				766892FF295D03B800DA2B8C /* Constants.swift */,
+				76689303295E903300DA2B8C /* AlertItem.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		76689305295E965A00DA2B8C /* LocationMapView */ = {
+			isa = PBXGroup;
+			children = (
+				76ED5B56295A87DC00CADBD3 /* LocationMapView.swift */,
+				76689306295E968000DA2B8C /* LocationMapViewModel.swift */,
+			);
+			path = LocationMapView;
+			sourceTree = "<group>";
+		};
+		76689308295F898400DA2B8C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				766892FD295CF19F00DA2B8C /* CloudKitManager.swift */,
+				76689309295F899F00DA2B8C /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +271,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762586E129595F750093333B /* ContentView.swift in Sources */,
 				762586DF29595F750093333B /* DubDubGrubApp.swift in Sources */,
+				76689300295D03B800DA2B8C /* Constants.swift in Sources */,
+				766892EA295BBFAB00DA2B8C /* CustomModifiers.swift in Sources */,
+				76ED5B57295A87DC00CADBD3 /* LocationMapView.swift in Sources */,
+				76689307295E968000DA2B8C /* LocationMapViewModel.swift in Sources */,
+				76ED5B55295A67D700CADBD3 /* AppTabView.swift in Sources */,
+				766892FB295C2A6600DA2B8C /* MockData.swift in Sources */,
+				76ED5B5F295A887600CADBD3 /* LocationListView.swift in Sources */,
+				766892F9295C2A0600DA2B8C /* DDGProfile.swift in Sources */,
+				766892F7295C265D00DA2B8C /* DDGLocation.swift in Sources */,
+				76ED5B61295A976500CADBD3 /* LocationView.swift in Sources */,
+				76ED5B5D295A886900CADBD3 /* ProfileView.swift in Sources */,
+				766892FE295CF19F00DA2B8C /* CloudKitManager.swift in Sources */,
+				76689304295E903300DA2B8C /* AlertItem.swift in Sources */,
+				766892EC295BBFED00DA2B8C /* View+Ext.swift in Sources */,
+				766892E6295BBC8B00DA2B8C /* LocationCell.swift in Sources */,
+				76689302295E7B7900DA2B8C /* CKRecord+Ext.swift in Sources */,
+				7668930A295F899F00DA2B8C /* LocationManager.swift in Sources */,
+				7635AF802960036D00D59B16 /* CKAsset+Ext.swift in Sources */,
+				766892EE295BC10000DA2B8C /* DDGButton.swift in Sources */,
+				766892E8295BBCEC00DA2B8C /* AvatarView.swift in Sources */,
+				76ED5B53295A676300CADBD3 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DubDubGrub/DubDubGrub.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrub/Preview Content\"";
@@ -279,13 +432,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolthund.DubDubGrub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -300,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DubDubGrub/DubDubGrub.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DubDubGrub/Preview Content\"";
@@ -317,13 +472,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolthund.DubDubGrub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
